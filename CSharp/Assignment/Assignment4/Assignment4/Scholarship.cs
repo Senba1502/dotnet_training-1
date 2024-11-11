@@ -16,15 +16,15 @@ namespace Assignment4
 
             if (marks >= 70 && marks <= 80)
             {
-                ScholarshipAmount = fees * 0.20m; 
+                ScholarshipAmount = fees * 0.2; 
             }
             else if (marks > 80 && marks <= 90)
             {
-                ScholarshipAmount = fees * 0.30m; 
+                ScholarshipAmount = fees * 0.3; 
             }
             else if (marks > 90)
             {
-                ScholarshipAmount = fees * 0.50m; 
+                ScholarshipAmount = fees * 0.5; 
             }
 
             return ScholarshipAmount;
